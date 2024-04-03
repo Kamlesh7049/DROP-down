@@ -1,0 +1,29 @@
+.mybtn{
+    background-color: green;
+    color: white;
+    font-size: 25px;
+
+}
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+a{
+    display: block;
+    color: #333;
+    text-decoration: none;
+    padding: 10px;
+}
+a:hover{
+    background-color: #333;
+    color: #f4f4f4;
+}
+.dropdown-content{
+    position: absolute;
+    width: 150px;
+    background-color: #f4f4f4;
+    display: none;
+}
+.dropdown:hover .dropdown-content{
+    display: block;
+}
